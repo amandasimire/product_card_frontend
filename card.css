@@ -1,0 +1,268 @@
+@import url('https://fonts.google.com/specimen/Montserrat');
+@import url('https://fonts.google.com/specimen/Montserrat');
+body { 
+    margin: 0px;
+    padding: 0px; 
+    overflow-x:hidden; 
+}
+
+img { 
+    position: absolute;
+     display: block; 
+     margin: 0px; 
+     border: none; 
+     padding: 0px; 
+}
+/* 
+Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+.container{
+    display: block;
+    position: relative;
+    width: 1440px;
+    height: 650px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    background:rgba(242,235,227,1);
+}
+
+.card {
+	top: 127px;
+	left: 474px;
+	width: 492px;
+	height: 396px;
+}
+
+#product_card {
+	top: 0px;
+	left: 0px;
+	width: 492px;
+	height: 396px;
+	border-radius: 15px;
+	background:rgba(255,255,255,1);
+}
+
+#product_desktop{
+	top: 0px;
+	left: 0px;
+	width: 248px;
+	height: 396px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.card_text {
+	overflow: hidden;
+	font-family: Montserrat;
+	text-align: left;
+	color:#6B7189;
+}
+
+#body_text {
+	top: 313px;
+	left: 738px;
+	width: 219px;
+	height: 67px;
+	font-size: 12px;
+}
+
+#title {
+	top: 187px;
+	left: 738px;
+	width: 241px;
+	height: 129px;
+	overflow: hidden;
+	font-family: Fraunces;
+	font-size: 26px;
+	text-align: left;
+	color:#1C232B;
+}
+
+
+#head_text {
+	top: 140px;
+	left: 738px;
+	width: 79px;
+	height: 23px;
+	font-size: 12px;
+}
+
+#price {
+	top: 412px;
+	left: 738px;
+	width: 139px;
+	height: 46px;
+	overflow: hidden;
+	font-family: Fraunces;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	color:#3C8067;
+}
+
+#strike {
+	top: 419px;
+	left: 872px;
+	width: 62px;
+	height: 23px;
+	overflow: hidden;
+	font-family: Fraunces;
+	font-size: 12px;
+	text-decoration: line-through;
+	text-align: left;
+	color:#6B7189;
+}
+
+#btn {
+	top: 477px;
+	left: 738px;
+	width: 202px;
+	height: 34px;
+	border-radius: 8px;
+	background:#3C8067;
+}
+
+#btn:hover{
+    border-radius: 12px;
+    background:#022317
+}
+#cart {
+	top: 485px;
+	left: 814px;
+	width: 100px;
+	height: 27px;
+	overflow: hidden;
+	font-family: Fraunces;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+    font-weight: bold;
+	letter-spacing: 0.7px;
+}
+
+#vector {
+	top: 484px;
+	left: 784px;
+	width: 20px;
+	height: 17px;
+}
+.attribution{
+    color: #6B7189;
+    font-family: Fraunces;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 850px) {
+  body{
+    background:rgba(242,235,227,1);
+  }
+    .container{
+        width: 375px;
+        height: 632px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card{	
+        top: 0px;
+        left: 0px;
+        width: 300px;
+        height: 550px;
+    }
+
+        
+    #product_card {
+        top: 20px;
+        left: 25px;
+        width: 300px;
+        height: 550px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+    }
+
+    #product_desktop{
+        top: 20px;
+        left: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 250px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+    }
+
+    #head_text{
+        top: 294px;
+        left: 35px;
+        width: 88px;
+        height: 23px;
+    }
+
+    #title{
+    top:  320px;
+	left: 35px;
+	width: 250px;
+	height: 87px;
+    }
+
+    #body_text{
+        top: 400px;
+        left: 35px;
+        width: 284px;
+        height: 67px;
+    }
+      
+    #price {
+        top: 475px;
+        left: 35px;
+        width: 139px;
+        height: 46px;
+    }
+
+
+    #strike {
+        top: 485px;
+        left: 217px;
+        width: 62px;
+        height: 23px;
+    }
+
+    .button{
+    top: 530px;
+	left: 42px;
+	width: 264px;
+	height: 31px;
+    }
+
+    #btn {
+        top: 0px;
+        left: 0px;
+        width: 264px;
+        height: 31px;
+        border-radius: 8px;
+    }
+
+    #vector {
+        top: 7px;
+        left: 62px;
+        width: 26px;
+        height: 17px;
+    }
+
+
+    #cart {
+        top: 7px;
+        left: 99px;
+        width: 125px;
+        height: 25px;	
+    }
+
+    .attribution{
+        left: 30px;
+        text-align: center;
+    }
+}
