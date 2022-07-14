@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsiveproduct-preview-card-FVu6ARUop9)
-- Live Site URL: [Add live site URL here](https://amandasimire.github.io/product_card_frontend/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsiveproduct-preview-card-FVu6ARUop9)
+- Live Site URL: [Live site URL ](https://amandasimire.github.io/product_card_frontend/)
 
 ## My process
  I started with creating the design on figma to give me clear cut measurements and to make it easier then i statred coding using the guide i created.
@@ -65,4 +65,4 @@ Concepts I want to focus on for future projects
 ## Author
 
 - Website - [Amanda Simire](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/amandasimire)
+- Frontend Mentor - [@amandasimire](https://www.frontendmentor.io/profile/amandasimire)
